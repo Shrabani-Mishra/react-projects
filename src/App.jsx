@@ -1,7 +1,9 @@
-import { EventHandling } from "./components/EventHandeling";
-import { EventPropagation } from "./components/EventPropagation";
-import { EventProps } from "./components/EventProps";
+// import { EventHandling } from "./components/EventHandeling";
+// import { EventPropagation } from "./components/EventPropagation";
+// import { EventProps } from "./components/EventProps";
 // import NetflixSeries from "./components/NetflixSeries";
+
+import { Counter } from "./components/Counter";
 
 const App = () => {
   return( 
@@ -9,7 +11,8 @@ const App = () => {
  {/* <NetflixSeries />; */}
  {/* <EventHandling/> */}
  {/* <EventProps/> */}
-<EventPropagation/>
+{/* <EventPropagation/> */}
+<Counter/>
   </section>
   )
 };
