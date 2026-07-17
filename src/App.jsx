@@ -1,20 +1,29 @@
-// import { EventHandling } from "./components/EventHandeling";
-// import { EventPropagation } from "./components/EventPropagation";
-// import { EventProps } from "./components/EventProps";
-// import NetflixSeries from "./components/NetflixSeries";
+
+
+// import Card from "./components/Card";
 
 import { Counter } from "./components/Counter";
 
+
 const App = () => {
-  return( 
-  <section className="container">
- {/* <NetflixSeries />; */}
- {/* <EventHandling/> */}
- {/* <EventProps/> */}
-{/* <EventPropagation/> */}
-<Counter/>
-  </section>
-  )
+//   let myObj={
+//     username:"hitesh",
+//     age:21
+//   }
+//   let  newArr=[1,2,3];
+//   return( 
+//   <section className="container">
+
+
+// <Card username="Bulti" btnText="click me"/>
+// <Card username="shrabani"  someObj={myObj} someArr={newArr} />
+  // </section>
+  // )
+  return(
+  <>
+  <Counter/>
+  </>
+  );
 };
 
 export default App;
