@@ -2,7 +2,9 @@
 
 // import Card from "./components/Card";
 
-import { Counter } from "./components/Counter";
+import { BackgroundChanger } from "./components/BackgroundChanger";
+
+// import { Counter } from "./components/Counter";
 
 
 const App = () => {
@@ -21,7 +23,9 @@ const App = () => {
   // )
   return(
   <>
-  <Counter/>
+  {/* <Counter/> */}
+  <BackgroundChanger/>
+
   </>
   );
 };
