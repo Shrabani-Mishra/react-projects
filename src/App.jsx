@@ -2,7 +2,9 @@
 
 // import Card from "./components/Card";
 
-import { BackgroundChanger } from "./components/BackgroundChanger";
+import PasswordGenerator from "./components/PasswordGenerator";
+
+// import { BackgroundChanger } from "./components/BackgroundChanger";
 
 // import { Counter } from "./components/Counter";
 
@@ -24,7 +26,8 @@ const App = () => {
   return(
   <>
   {/* <Counter/> */}
-  <BackgroundChanger/>
+  {/* <BackgroundChanger/> */}
+<PasswordGenerator/>
 
   </>
   );
