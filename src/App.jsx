@@ -1,36 +1,12 @@
+import React from 'react'
+import { EventPropagation } from './components/EventPropagation'
 
+function App() {
+  return (
+    <>
+     <EventPropagation/>
+    </>
+  )
+}
 
-// import Card from "./components/Card";
-
-import PasswordGenerator from "./components/PasswordGenerator";
-
-// import { BackgroundChanger } from "./components/BackgroundChanger";
-
-// import { Counter } from "./components/Counter";
-
-
-const App = () => {
-//   let myObj={
-//     username:"hitesh",
-//     age:21
-//   }
-//   let  newArr=[1,2,3];
-//   return( 
-//   <section className="container">
-
-
-// <Card username="Bulti" btnText="click me"/>
-// <Card username="shrabani"  someObj={myObj} someArr={newArr} />
-  // </section>
-  // )
-  return(
-  <>
-  {/* <Counter/> */}
-  {/* <BackgroundChanger/> */}
-<PasswordGenerator/>
-
-  </>
-  );
-};
-
-export default App;
+export default App
