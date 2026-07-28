@@ -1,10 +1,10 @@
 import React from 'react'
-import { EventPropagation } from './components/EventPropagation'
+import { Todo } from './projects/Todo'
 
 function App() {
   return (
     <>
-     <EventPropagation/>
+  <Todo/>
     </>
   )
 }
