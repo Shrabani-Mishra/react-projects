@@ -1,5 +1,6 @@
 import React from 'react'
-import { Todo } from './projects/Todo'
+import { Todo } from './projects/todo/Todo'
+
 
 function App() {
   return (
