@@ -1,11 +1,11 @@
 import React from 'react'
-import { Todo } from './projects/todo/Todo'
+import { ShortCircuit } from './projects/ShortCircuit'
 
 
 function App() {
   return (
     <>
-  <Todo/>
+  <ShortCircuit/>
     </>
   )
 }
