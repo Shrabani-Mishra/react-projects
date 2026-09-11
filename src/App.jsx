@@ -1,5 +1,6 @@
 import React from 'react'
-import ContactForm from './projects/COntactForm'
+import Accordian from './components/Accordian'
+// import ContactForm from './projects/COntactForm'
 // import LoginForm from './projects/LoginForm'
 
 
@@ -7,7 +8,9 @@ function App() {
   return (
     <>
 {/* <LoginForm/> */}
-<ContactForm/>
+{/* <ContactForm/> */}
+{/* Accordian Component */}
+<Accordian/>
     </>
   )
 }
