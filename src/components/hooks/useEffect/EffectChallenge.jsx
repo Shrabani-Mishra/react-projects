@@ -11,6 +11,7 @@ export const Challange=()=>{
     useEffect(()=>{
         document.title=`count:${count}`
     },[count]);
+    
     useEffect(()=>{
 console.log(name);
     },[name]);
