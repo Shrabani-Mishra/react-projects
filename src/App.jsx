@@ -1,5 +1,5 @@
 import React from 'react'
-import { Challange } from './components/hooks/useEffect/EffectChallenge'
+import { CleanUp } from './components/hooks/CleanUp'
 // import Accordian from './components/Accordian'
 
 
@@ -8,8 +8,7 @@ function App() {
     <>
 {/* Accordian Component */}
 {/* <Accordian/> */}
-<Challange/>
-
+<CleanUp/>
     </>
   )
 }
