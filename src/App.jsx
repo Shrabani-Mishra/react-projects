@@ -1,5 +1,6 @@
 import React from 'react'
-import Accordian from './components/Accordian'
+// import Accordian from './components/Accordian'
+import { ReactUseEffect } from './components/hooks/useEffect'
 // import ContactForm from './projects/COntactForm'
 // import LoginForm from './projects/LoginForm'
 
@@ -10,7 +11,8 @@ function App() {
 {/* <LoginForm/> */}
 {/* <ContactForm/> */}
 {/* Accordian Component */}
-<Accordian/>
+{/* <Accordian/> */}
+<ReactUseEffect/>
     </>
   )
 }

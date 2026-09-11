@@ -55,6 +55,7 @@ export default function Accordian() {
               </div>
 
               {/* Single Selection */}
+              {/* "If multiple selection is OFF AND this item is the currently selected item, show its answer." */}
               {!enableMultiSelection &&
               selected === dataItem.id ? (
                 <div className="content">
@@ -63,6 +64,8 @@ export default function Accordian() {
               ) : null}
 
               {/* Multi Selection */}
+              {/* This checks whether the current item's ID is inside the multiple array. */}
+              {/* If multi-selection is ON AND this item's ID exists in the multiple array, show the answer. Otherwise show nothing. */}
               {enableMultiSelection &&
               multiple.indexOf(dataItem.id) !== -1 ? (
                 <div className="content">
