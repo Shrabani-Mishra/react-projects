@@ -1,7 +1,5 @@
 import React from 'react'
-import { UseID } from './components/hooks/UseID'
-// import { ForwardRef } from './components/hooks/ForwardRef'
-// import { Pokemon } from './components/hooks/useEffect/Pokemon'
+import { PropDrilling } from './components/PropDrilling'
 // import Accordian from './components/Accordian'
 
 
@@ -10,9 +8,7 @@ function App() {
     <>
 {/* Accordian Component */}
 {/* <Accordian/> */}
-{/* <Pokemon/> */}
-{/* <ForwardRef/> */}
-<UseID/>
+<PropDrilling/>
     </>
   )
 }
