@@ -1,5 +1,6 @@
 import React from 'react'
-import { Pokemon } from './components/hooks/useEffect/Pokemon'
+import { UseRef } from './components/hooks/useRefs'
+// import { Pokemon } from './components/hooks/useEffect/Pokemon'
 // import Accordian from './components/Accordian'
 
 
@@ -8,7 +9,8 @@ function App() {
     <>
 {/* Accordian Component */}
 {/* <Accordian/> */}
-<Pokemon/>
+{/* <Pokemon/> */}
+<UseRef/>
     </>
   )
 }
