@@ -9,7 +9,7 @@ export const UseRef=()=>{
     e.preventDefault();
         console.log(username.current.value,password.current.value);
     };
-
+// Uncontrolled Components form bcz no onChange
 
 return (
     <>
