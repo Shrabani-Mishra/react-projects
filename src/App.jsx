@@ -1,5 +1,8 @@
 import React from 'react'
-import { PropDrilling } from './components/PropDrilling'
+// import { PropDrilling } from './components/PropDrilling'
+import { BioProvider } from './components/hooks/ContextAPI'
+import { Home } from './components/hooks/ContextAPI/Home'
+import { About } from './components/hooks/ContextAPI/About'
 // import Accordian from './components/Accordian'
 
 
@@ -8,8 +11,12 @@ function App() {
     <>
 {/* Accordian Component */}
 {/* <Accordian/> */}
-<PropDrilling/>
-    </>
+<BioProvider>
+  <Home/>
+  <About/>
+</BioProvider>
+</>
+    
   )
 }
 
