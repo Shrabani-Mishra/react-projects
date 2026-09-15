@@ -5,5 +5,7 @@ export const BioContext =createContext();//returns context component  not variab
 export const BioProvider=({children})=>{
     const myName="shrabani";
     const myAge=24;
-    return <BioContext.Provider value={{myName,myAge}}>{children}</BioContext.Provider>
+    return <BioContext.Provider value={{myName,myAge}}>
+        {children}
+        </BioContext.Provider>
 }
