@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReducerComp } from './components/hooks/useReducer'
+import { ReactMemo } from './components/hooks/Memo/ReactMemo'
 // import { PropDrilling } from './components/PropDrilling'
 // import { BioProvider } from './components/hooks/ContextAPI'
 // import { Home } from './components/hooks/ContextAPI/Home'
@@ -22,8 +22,7 @@ function App() {
 {/* </ThemeProvider> */}
 {/* ========================== */}
 
-
-<ReducerComp/>
+<ReactMemo/>
 
 </>
     
