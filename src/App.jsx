@@ -1,6 +1,7 @@
 import React from 'react'
-import { ReactMemo } from './components/hooks/Memo/ReactMemo'
-import { UsememoExampel } from './components/hooks/Memo/UseMemo'
+// import { ReactMemo } from './components/hooks/Memo/ReactMemo'
+// import { UsememoExampel } from './components/hooks/Memo/UseMemo'
+import { UseCallBack } from './components/hooks/Memo/UseCallback'
 // import { PropDrilling } from './components/PropDrilling'
 // import { BioProvider } from './components/hooks/ContextAPI'
 // import { Home } from './components/hooks/ContextAPI/Home'
@@ -24,7 +25,8 @@ function App() {
 {/* ========================== */}
 
 {/* <ReactMemo/> */}
-<UsememoExampel/>
+{/* <UsememoExampel/> */}
+<UseCallBack/>
 
 </>
     
